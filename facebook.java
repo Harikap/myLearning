@@ -14,11 +14,11 @@ public class facebook {
 		FirefoxDriver driver=new FirefoxDriver();
 		
 		driver.navigate().to("https://www.facebook.com/");
-		driver.findElement(By.xpath("//*[@id='u_0_1']")).sendKeys("harika");
-		driver.findElement(By.xpath("//*[@id='u_0_3']")).sendKeys("jupudi");
-		driver.findElement(By.xpath("//*[@id='u_0_5']")).sendKeys("jupudiharika@gmail.com");
-		driver.findElement(By.xpath(".//*[@id='u_0_8']")).sendKeys("jupudiharika@gmail.com");
-		driver.findElement(By.xpath("//*[@id='u_0_a']")).sendKeys("sumathijupudi");
+		driver.findElement(By.xpath("//*[@id='u_0_1']")).sendKeys("xxxxx");
+		driver.findElement(By.xpath("//*[@id='u_0_3']")).sendKeys("xxxxxx");
+		driver.findElement(By.xpath("//*[@id='u_0_5']")).sendKeys("xxxxxxxx@gmail.com");
+		driver.findElement(By.xpath(".//*[@id='u_0_8']")).sendKeys("xxxxxxxxxx@gmail.com");
+		driver.findElement(By.xpath("//*[@id='u_0_a']")).sendKeys("xxxxxxxx");
 		
 		WebElement birthday_month = driver.findElement(By.id("month"));
 		elect drop1= new Select(birthday_month);
